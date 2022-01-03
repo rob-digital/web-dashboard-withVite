@@ -4,7 +4,7 @@ import HomeTest from '@/components/121-Home.vue'
 import AboutTest from '@/components/122-About.vue'
 import viewUser from '@/components/131-viewUser.vue'
 import createEditUser from '@/components/132-createEditUser.vue'
-import Register from '@/components/3-Register.vue'
+import LoginRegister from '@/components/Login_Register.vue'
 
 const routes = [
     {
@@ -24,8 +24,8 @@ const routes = [
     // },
     {
         path: '/reg',
-        name: 'Register',
-        component: Register
+        name: 'LoginRegister',
+        component: LoginRegister
     },  
     {
         path: '/edit/:id',
@@ -41,7 +41,7 @@ const routes = [
         path: '/abouttest',
         name: 'AboutTest',
         component: AboutTest
-    },
+    }, 
 ]
 
 const router = createRouter({
