@@ -71,7 +71,7 @@ const requestWallpaper = async () => {
     try {
         const response = await axios.get(`https://api.pexels.com/v1/search?query=mountains&per_page=80&orientation=landscape`, {
                                     headers: {
-                                        authorization: '563492ad6f91700001000001cf5721145ff84e219ed00aae63e125ef'
+                                        authorization: ''
                                         }
                                     })
         const results = await response.data
